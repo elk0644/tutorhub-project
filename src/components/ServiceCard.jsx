@@ -1,12 +1,19 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
-export default function ServiceCard({ s }) {
+function ServiceCard(props) {
+  const service = props.s;
+
   return (
     <div className="card">
-      <div className="icon">{s.icon}</div>
-      <h3>{s.title}</h3>
-      <p>{s.desc}</p>
-      <Link className="btn" to={`/services/${s.id}`}>Details</Link>
+      <div className="icon">{service.icon}</div>
+      <h3>{service.title}</h3>
+      <p>{service.desc}</p>
+      <Link className="btn" to={"/services/" + service.id}>
+        Details
+      </Link>
     </div>
   );
 }
+
+export default ServiceCard;
