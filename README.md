@@ -9,7 +9,7 @@ TutorHub is a responsive React web app that solves a real-world problem: student
 
 ## Setup Instructions
 ```bash
-git clone <your-repo-link>
+git clone <https://github.com/elk0644/tutorhub-project.git>
 cd tutorhub
 npm install
 npm run dev        # open http://localhost:5173
@@ -17,7 +17,7 @@ npm run build      # production build in /dist
 ```
 
 ## Deployment
-Deployed on Vercel/Netlify/GitHub Pages: **<add your live link here>** (uses HashRouter so routes work on any static host).
+Deployed on Vercel/Netlify/GitHub Pages: **<https://tutorhub-project.vercel.app>** (uses HashRouter so routes work on any static host).
 
 ## Screenshots
 | Home | Services | Contact (mobile) |
