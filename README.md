@@ -24,7 +24,6 @@ Deployed on Vercel/Netlify/GitHub Pages: **<https://tutorhub-project.vercel.app>
 |---|---|---|
 | ![Home](docs/screenshots/home.png) | ![Services](docs/screenshots/services.png) | ![Contact](docs/screenshots/contact-mobile.png) |
 
-*(Run the app, take the screenshots and save them in `docs/screenshots/` with these names.)*
 
 ## Structure
 ```
